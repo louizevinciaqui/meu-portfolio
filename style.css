@@ -1,0 +1,47 @@
+body {
+    background-color: #0d0e12;
+    background-image: 
+        radial-gradient(at 10% 15%, rgba(30, 27, 75, 0.45) 0px, transparent 55%),
+        radial-gradient(at 90% 25%, rgba(15, 23, 42, 0.6) 0px, transparent 50%),
+        radial-gradient(at 50% 85%, rgba(24, 24, 27, 0.8) 0px, transparent 65%);
+    background-attachment: fixed;
+    color: #f4f4f5;
+    font-family: system-ui, -apple-system, sans-serif;
+    position: relative;
+}
+
+.bg-laranja {
+  background-color: #d97841;
+}
+
+.bg-violeta{
+    background-color: violet;
+}
+
+.nav-link.active {
+    background-color: #d1d4d0;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 600;
+}
+
+.navbar-custom {
+    background-color: rgba(13, 14, 18, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card-custom, .bg-card {
+    background-color: rgba(24, 24, 27, 0.75);
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+
